@@ -1,0 +1,36 @@
+{
+  "name": "ripacth-theme",
+  "displayName": "Ripacth Theme",
+  "description": "new my theme",
+  "version": "0.0.1",
+  "publisher": "rizalpriyono",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/path/to-repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/path/to-repo.git",
+    "email": "rizal10priyono11@gmail.com"
+  },
+  "homepage": "link.com",
+  "icon": "icons/theme-icon.png",
+  "galleryBanner": {
+    "color": "#FDFDFE",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "rizal priyono them dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rizal priyono-color-theme.json"
+      }
+    ]
+  }
+}
